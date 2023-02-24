@@ -1,0 +1,43 @@
+body{
+    background-color: moccasin;
+}
+.hide-1{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(100, 64, 3);
+    font-size: x-large;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: rgb(254, 248, 237);
+   display: flex;
+   justify-content: space-between;
+}
+.icon-bar{
+  position: absolute;
+  left: -150px;
+    background-color: rgb(100, 64, 3);
+}
+.divider{
+    display: flex;
+    align-items: center;
+    background-color: rgb(100, 64, 3);
+    width: 50%;
+    height: 1px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.first{
+    
+    color: rgb(100, 64, 3) ;
+    text-align: center;
+    height: 500px;
+    background-image: url(alex2.png);
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10.0em;
+}
