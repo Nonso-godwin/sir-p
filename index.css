@@ -1,7 +1,16 @@
 body{
     background-color: moccasin;
+    color:rgb(100, 64, 3) ;
+    padding: 30px;
+}
+.my{
+    text-align: center;
+    color:rgb(100, 64, 3) ;  
+    font-family: 'Times New Roman', Times, serif;
 }
 .hide-1{
+    position: sticky;
+   top: 0px;
     display: flex;
     justify-content: space-evenly;
     color: rgb(100, 64, 3);
@@ -10,9 +19,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .navbar{
+    position: sticky;
+    top: 0px;
     background-color: rgb(254, 248, 237);
    display: flex;
    justify-content: space-between;
+   width: 100%;
 }
 .icon-bar{
   position: absolute;
@@ -23,10 +35,12 @@ body{
     display: flex;
     align-items: center;
     background-color: rgb(100, 64, 3);
-    width: 50%;
+    width: 80%;
     height: 1px;
 }
 .line{
+    position: sticky;
+    top: 51px;
     display: flex;
     justify-content: center;
 }
@@ -40,4 +54,64 @@ body{
 .name{
     font-family: 'Times New Roman', Times, serif;
     font-size: 10.0em;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}.log{
+    position: absolute;
+    top: -10px;
+}
+
+.nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+img{
+    background-color: moccasin;
+    height: 100%;
+    width: 100%;
+}
+.carousel{
+   background-color: moccasin;
+    /* align-items: center; */
+    display: grid;
+    /* justify-content: center; */
+    height: 100%;
+    width: 100%;
+}
+.more{
+    background-color: moccasin;
+    border-color:rgb(100, 64, 3)  ;
+    color: rgb(100, 64, 3) ;
+    width: 200px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.MORE{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color:rgb(100, 64, 3)  ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.identity{
+    width: 50%;
+    height: 20%;
 }
